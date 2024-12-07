@@ -1,0 +1,15 @@
+[package]
+name = "Lab4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-util = "0.3.31"
+tokio-tungstenite = "0.24.0"
+sqlx = { version = "0.8.2", features = ["runtime-tokio-rustls", "sqlite"] }
+dotenv = "0.15.0"
+warp = "0.3.7"
+serde = "1.0"
+tokio = { version = "1.42.0", features = ["full"] }
+chrono = "0.4.38"
+serde_json = "1.0.133"
